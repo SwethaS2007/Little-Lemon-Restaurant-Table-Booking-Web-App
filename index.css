@@ -1,0 +1,31 @@
+:root {
+  --lemon-green: #495e57;
+  --lemon-yellow: #f4ce14;
+  --lemon-salmon: #ee9972;
+  --lemon-cream: #fbdabb;
+  --lemon-light: #edefee;
+  --lemon-dark: #333333;
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--lemon-green);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button:focus,
+input:focus,
+select:focus {
+  outline: 2px solid var(--lemon-yellow);
+  outline-offset: 2px;
+}

@@ -1,0 +1,33 @@
+.nav {
+  background-color: #edefee;
+  padding: 12px 32px;
+  border-bottom: 2px solid #f4ce14;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  color: #495e57;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  padding: 4px 0;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.nav-link:hover {
+  border-bottom-color: #495e57;
+  text-decoration: none;
+}
+
+.nav-link--active {
+  border-bottom-color: #f4ce14;
+  color: #333;
+}

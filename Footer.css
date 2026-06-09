@@ -1,0 +1,21 @@
+.footer {
+  background-color: #495e57;
+  color: #edefee;
+  text-align: center;
+  padding: 20px 32px;
+  margin-top: auto;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+}
+
+.footer-address {
+  font-size: 0.85rem;
+  font-style: normal;
+}
+
+.footer-link {
+  color: #f4ce14;
+}
